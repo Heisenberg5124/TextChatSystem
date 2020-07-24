@@ -1,0 +1,23 @@
+User & server.Server
+
+1. User --> server.Server
+    * login / logoff
+    * status
+
+2. server.Server --> User
+    * online / offline
+
+3. User --> User
+    * direct messages
+    * broadcast messages
+
+Commands:
+    login <user> <password>
+    logoff
+
+    msg <user> body...
+
+    #topic <-- chat room / group chat
+    join #topic
+    leave #topic
+    msg #topic body...
